@@ -52,13 +52,14 @@
             this.countdown.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.countdown.Font = new System.Drawing.Font("Colonna MT", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.countdown.ForeColor = System.Drawing.Color.White;
-            this.countdown.Location = new System.Drawing.Point(316, 172);
+            this.countdown.Location = new System.Drawing.Point(287, 172);
             this.countdown.Name = "countdown";
             this.countdown.Size = new System.Drawing.Size(144, 66);
             this.countdown.TabIndex = 1;
             this.countdown.Text = "3";
             this.countdown.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.countdown.Visible = false;
+            this.countdown.Click += new System.EventHandler(this.Countdown_Click);
             // 
             // gameWindow
             // 

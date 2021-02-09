@@ -56,5 +56,10 @@ namespace GameStart
             Thread.Sleep(500);
 
         }
+
+        private void Countdown_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
