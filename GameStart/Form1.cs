@@ -29,7 +29,7 @@ namespace GameStart
             cymbolPlay.Play();
             countdown.Visible = true;
 
-            Refresh(); 
+            Refresh();
             Thread.Sleep(1000);
 
             cymbolPlay.Play();
@@ -54,12 +54,7 @@ namespace GameStart
 
             Refresh();
             Thread.Sleep(500);
-
         }
-
-        private void Countdown_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

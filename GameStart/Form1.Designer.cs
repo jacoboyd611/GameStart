@@ -59,7 +59,6 @@
             this.countdown.Text = "3";
             this.countdown.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.countdown.Visible = false;
-            this.countdown.Click += new System.EventHandler(this.Countdown_Click);
             // 
             // gameWindow
             // 
